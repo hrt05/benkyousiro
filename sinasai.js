@@ -1,10 +1,11 @@
 (() => {
     const noOpenPage = [
         "x.com",
-        "www.youtube.com"
+        "www.youtube.com",
+        "www.instagram.com"
     ];
 
-    //現在開いているところを変数に挿入
+    // 現在開いているところを変数に挿入
     const nowPage = window.location.hostname;
 
     // もし現在開かれてるページがnoOpenPageに含まれていたら
