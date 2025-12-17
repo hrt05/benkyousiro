@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "benkyousiro",
+    "version": "1.0.0.0",
+    "description": "勉強中にyoutubeやXを開かないようにする拡張機能",
+    "content_scripts": [{
+        "matches": ["*://x.com/*", "*://www.youtube.com/*"],
+        "js":["sinasai.js"]
+    }]
+}
